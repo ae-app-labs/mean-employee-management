@@ -1,0 +1,2 @@
+ng new client --inline-template --inline-style --minimal --routing --style=css
+
