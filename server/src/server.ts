@@ -9,7 +9,7 @@ dotenv.config()
 const { ATLAS_URI } = process.env
 
 if(!ATLAS_URI) {
-    console.error("Please defind ATLAS_URI in config.env")
+    console.error("Please define ATLAS_URI in config.env")
     process.exit(1)
 }
 
